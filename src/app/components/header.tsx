@@ -5,10 +5,10 @@ import { Social } from "./social";
 
 export const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent py-6">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent py-12">
       <div className="container mx-auto px-6 flex justify-end items-center">
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <img src="/logo.png" alt="Logo" className="h-12" />
+          <img src="/logo.png" alt="Logo" className="h-24" />
         </div>
 
         <div className="flex gap-4">
