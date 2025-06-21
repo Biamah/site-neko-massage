@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { EmblaOptionsType } from "embla-carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { StaticImageData } from "next/image";
+import { Header } from "./header";
 
 type Slide = {
   id: number;
@@ -32,6 +33,7 @@ const BannerCarousel: React.FC<BannerCarouselProps> = ({ slides, options }) => {
 
   return (
     <div className="relative w-full max-md:h-[80vh] h-[60vw] xl:h-[50vw] overflow-hidden">
+      <Header />
       <div className="embla__viewport w-full h-full" ref={emblaRef}>
         <div className="embla__container flex h-full">
           {slides.map((slide) => (

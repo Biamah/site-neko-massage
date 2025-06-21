@@ -1,10 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Sail&display=swap";
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #212121;
   --font-raleway: "Raleway", sans-serif;
+  --font-sail: "Sail", system-ui;
 }
 
 @theme inline {
@@ -14,6 +16,7 @@
   --color-pastel-pink: #e9acba;
   --color-soft-pink: #fad5de;
   --color-black: #212121;
+  --color-light-black: rgba(45, 45, 45, 0.75);
   --color-dark-black: #000000;
   --color-dark-gray: #323434;
   --font-sans: var(--font-raleway);
