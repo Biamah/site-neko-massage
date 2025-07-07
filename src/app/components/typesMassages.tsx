@@ -15,6 +15,7 @@ const TypesMassages = () => (
         style={{ zIndex: 0 }}
         priority
       />
+      <div className="absolute inset-0 bg-[#1E1E1C]/20 pointer-events-none" />
     </div>
     {/* Conteúdo */}
     <div className="relative z-10 max-w-6xl mx-auto px-4">
@@ -26,13 +27,13 @@ const TypesMassages = () => (
         {massageTypes.map((item, idx) => (
           <div
             key={idx}
-            className="bg-white/70 backdrop-blur-md rounded-2xl p-6 flex-1 min-w-[260px] max-w-sm shadow-md border border-pink-100"
+            className="bg-pastel-pink-second backdrop-blur-md rounded-2xl p-6 flex-1 min-w-[260px] max-w-sm shadow-md border border-pink-100 flex flex-col items-start justify-between"
           >
             <h3 className="text-sm font-bold mb-2 text-gray-700">{item.title}</h3>
             <p className="text-gray-600 text-sm mb-6">{item.description}</p>
             <a
               href={item.link}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-pink-200 text-pink-700 font-medium text-sm hover:bg-pink-50 transition"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/70 text-black/70 font-medium text-sm hover:bg-pink-50 transition"
             >
               {item.button}
               <span className="text-lg">→</span>
