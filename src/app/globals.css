@@ -17,18 +17,19 @@
   --color-pastel-pink-second: #FFF0FF;
   --color-soft-pink: #fad5de;
   --color-black: #212121;
+  --color-beige: #FBF9F6;
   --color-light-black: rgba(45, 45, 45, 0.75);
   --color-dark-black: #000000;
   --color-dark-gray: #323434;
   --font-sans: var(--font-raleway);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 * {
   font-family: var(--font-sans);
