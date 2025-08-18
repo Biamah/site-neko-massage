@@ -33,11 +33,11 @@ const WeddingSection = () => (
       </div>
       {/* Conteúdo */}
       <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
-        <h2 className="font-[var(--font-titulo)] text-2xl md:text-3xl font-bold mb-2">
+        <h2 className="font-[var(--font-titulo)] text-2xl md:text-3xl mb-2">
           <span className="block font-normal" style={{ fontFamily: 'var(--font-sail)' }}>Massagens</span>
-          <span className="block" style={{ fontFamily: 'var(--font-sail)' }}>em Casamentos</span>
+          <span className="block text-5xl" style={{ fontFamily: 'var(--font-sail)' }}>em Casamentos</span>
         </h2>
-        <p className="text-gray-700 text-base md:text-lg mb-6">
+        <p className="text-gray-700 text-base md:text-lg mb-6 italic">
           Seu grande dia merece cada detalhe inesquecível, inclusive momentos de relaxamento!
         </p>
         <Button href="#" text="Saiba mais"/>

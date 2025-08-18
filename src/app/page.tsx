@@ -3,6 +3,7 @@ import { slidesItems } from "./constants/slideItems";
 import AboutUs from "./components/aboutUs";
 import TypesMassages from "./components/typesMassages";
 import WeddingSection from "./components/weddingSection";
+import MassageAtEvents from "./components/massageAtEvents";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutUs />
       <TypesMassages />
       <WeddingSection />
+      <MassageAtEvents />
     </div>
   );
 }
