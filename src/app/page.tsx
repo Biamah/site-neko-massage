@@ -5,6 +5,7 @@ import TypesMassages from "./components/typesMassages";
 import WeddingSection from "./components/weddingSection";
 import MassageAtEvents from "./components/massageAtEvents";
 import FeedbackSection from "./components/feedbackSection";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <WeddingSection />
       <MassageAtEvents />
       <FeedbackSection />
+      <Footer />
     </div>
   );
 }
